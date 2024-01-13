@@ -1,0 +1,16 @@
+.Vlad-main__title{
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+    bottom: -25px;
+    left: 22%;
+
+    color: #EDEDED;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 35px */
+    letter-spacing: -0.595px;
+}

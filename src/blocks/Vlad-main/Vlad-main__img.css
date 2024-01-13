@@ -1,0 +1,16 @@
+.Vlad-main__img{
+
+    max-width: 280px;
+    max-height: 316px;
+    flex-shrink: 0;
+
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+
+    /*Нижние 4 строчки отвечают чисто за фоновое изображение*/
+    background-image: url(../../image/decor_za_Vladom.jpg);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position: top left;
+}

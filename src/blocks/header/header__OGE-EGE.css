@@ -1,0 +1,13 @@
+.header__OGE-EGE{
+    max-width: 110px;
+    min-height: 97px;
+    flex-shrink: 0;
+
+    margin: -10px 0 0 auto;
+    padding: 0;
+
+    background-image: url("../../image/OGE-EGE-320.svg");
+    background-repeat: no-repeat;
+
+    fill: #C3BBC6;
+}

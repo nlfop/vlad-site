@@ -1,0 +1,18 @@
+@import url("../vendor/normalize.css");
+@import url("../fonts/fonts.css");
+
+@import url("../blocks/page.css");
+@import url("../blocks/title.css");
+@import url("../blocks/button.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/header__title.css");
+@import url("../blocks/header/header__subtitle.css");
+@import url("../blocks/header/header__OGE-EGE.css");
+
+@import url("../blocks/Vlad-main/Vlad-main.css");
+@import url("../blocks/Vlad-main/Vlad-main__title.css");
+@import url("../blocks/Vlad-main/Vlad-main__img.css");
+
+@import url("../blocks/what-how/what-how.css");
+@import url("../blocks/what-how/what-how__description.css");

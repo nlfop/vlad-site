@@ -1,0 +1,14 @@
+.what-how{
+    max-width: 550px;
+    min-height: 400px;
+    padding: 0 20px;
+    margin: 40px auto 0;
+
+    display: block;
+    position: relative;
+
+    background-image: url("../../image/square-gradient.svg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: left top;
+}
