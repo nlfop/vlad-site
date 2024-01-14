@@ -5,25 +5,25 @@
 .subtitle{color:#d49bfc;display:inline;font-family:Inter;font-size:35px;font-style:normal;font-weight:300;letter-spacing:-.595px;line-height:100%;max-width:275px}
 .button{background:#d9d9d9;border-radius:17px;color:#000;display:inline-flex;flex-shrink:0;font-family:Inter;font-size:25px;font-style:normal;font-weight:900;grid-area:buy;letter-spacing:-.391px;line-height:35px;margin:5px;padding:5px 0;text-decoration:none;white-space:pre}
 header{display:block;margin:40px auto 0;max-width:550px;padding:0 20px}
-.header__OGE-EGE{background-image:url(648b4e004f7ad57355bd.svg);background-repeat:no-repeat;flex-shrink:0;margin:-10px 0 0 auto;max-width:110px;min-height:97px;padding:0;fill:#c3bbc6}
+.header__OGE-EGE{background-image:url(648b4e004f7ad57355bd.svg);background-repeat:no-repeat;flex-shrink:0;margin:-10px 5% 0 auto;max-width:110px;min-height:97px;padding:0;fill:#c3bbc6}
 .Vlad-main{margin:0;padding:0;position:relative}
 .Vlad-main__title{bottom:-25px;color:#ededed;font-family:Inter;font-size:35px;font-style:normal;font-weight:700;left:22%;letter-spacing:-.595px;line-height:100%;margin:0;padding:0;position:absolute}
 .Vlad-main__img{background-image:url(80b3cfadf53390f86b1f.jpg);background-position:0 0;background-repeat:no-repeat;background-size:260px;display:flex;flex-shrink:0;margin:0 auto;max-height:316px;max-width:280px;padding:0}
 .what-how{background-image:url(ef574ae3fb67bf158aa5.svg);background-position:0 0;background-repeat:no-repeat;background-size:300px;display:block;margin:40px auto 0;max-width:550px;min-height:400px;padding:0 20px;position:relative}
 .what-how__description{color:#c3bbc6;display:block;font-family:Forum,sans-serif;font-size:30px;font-style:normal;font-weight:400;letter-spacing:-.51px;line-height:100%;margin:20px 0 30px;max-width:280px;padding:0}
-.opinions{display:flex;flex-direction:column;margin:20px auto;max-width:280px;padding:0}@media (min-width:450px){.opinions{max-width:430px}}@media (min-width:600px){.opinions{max-width:580px}}
-.feedbacks{display:grid;gap:20px;grid-auto-flow:row;grid-template-columns:repeat(auto-fit,130px);list-style-type:none;margin:15px 0 0;padding:0;position:relative}
+.opinions{display:flex;flex-direction:column;margin:20px;padding:0}
+.feedbacks{display:grid;gap:20px;grid-auto-flow:row;grid-template-columns:repeat(auto-fit,130px);list-style-type:none;margin:15px auto 0;max-width:280px;padding:0;position:relative}@media (min-width:450px){.feedbacks{max-width:430px}}@media (min-width:605px){.feedbacks{max-width:580px}}
 .feedback{background:#1a002d;border-radius:65px 65px 25px 25px;display:block;flex-shrink:0;height:auto;margin:0;max-width:130px;padding:0;position:relative}
 .feedback__img{border-radius:65px 65px 50px 50px;flex-shrink:0;margin:0;max-height:110px;-o-object-fit:cover;object-fit:cover;padding:0;width:130px}
 .feedback__title{color:#c36fff;font-family:Inter;font-size:20px;font-style:normal;font-weight:500;left:10px;letter-spacing:-.34px;line-height:100%;margin:0;padding:0;position:absolute;top:93px}
 .feedback__subtitle{color:#796c83;display:flex;flex-direction:column;flex-shrink:0;font-family:Inter;font-size:10px;font-style:normal;font-weight:500;justify-content:center;letter-spacing:-.17px;line-height:normal;margin:30px 10px 5px;padding:0}
 .feedback__review{color:#d8d8d8;font-family:Forum;font-size:12px;font-style:normal;font-weight:400;letter-spacing:-.204px;line-height:normal;margin:0;padding:10px}
-.about-Vlad{background-image:url(b523ea152c6681100643.svg);background-position:0 0;background-repeat:no-repeat;background-size:300px;display:flex;display:block;flex-direction:column;margin:40px auto 0;max-width:550px;min-height:400px;padding:0 20px;position:relative}
+.about-Vlad{background-image:url(b523ea152c6681100643.svg);background-position:left -50px bottom;background-repeat:no-repeat;background-size:400px;display:flex;display:block;flex-direction:column;margin:40px auto 0;max-width:550px;min-height:400px;padding:0 20px;position:relative}
 .about-Vlad__title{color:#fff;font-family:Inter;font-size:35px;font-style:normal;font-weight:700;letter-spacing:-.595px;line-height:30px;margin:3px 15px 7px 10px;padding:0}
 .about-Vlad__title-background{background-image:url(e5512d07d0ffc6892178.svg);background-position:0 100%;background-repeat:no-repeat;background-size:contain;left:30px;max-width:260px;position:absolute;top:375px;z-index:2}
 .Vlad__img{flex-shrink:0;max-height:280px;max-width:280px;-o-object-fit:cover;object-fit:cover}
 .about-Vlad__description{color:#fff;font-family:Forum;font-size:17px;font-style:normal;font-weight:400;letter-spacing:-.289px;line-height:normal;margin:10px auto 0;padding:0}
-.lessons-format{display:flex;flex-direction:column;margin:0 auto;padding:0 20px}
+.lessons-format{background-image:url(cf54e2dde87c15d974a2.svg);background-position:100% 100%;background-repeat:no-repeat;background-size:400px;display:flex;flex-direction:column;margin:0 auto;padding:0 20px 40px}
 .lessons-format__description{color:#fff;font-family:Forum;font-size:17px;font-style:normal;font-weight:400;letter-spacing:-.289px;line-height:normal;margin:10px auto 0;padding:0}
 .lesson-card{background:#9e29f0;border-radius:20px;display:grid;flex-shrink:0;grid-template-areas:"title       title" "description description" "price       buy";grid-template-columns:40% 60%;grid-template-rows:50px auto 50px;margin:10px 0 0;max-width:280px;padding:0}
 .lesson-card__title{color:#d49bfc;font-family:Inter;font-size:30px;font-style:normal;font-weight:700;grid-area:title;letter-spacing:-.51px;line-height:normal;margin:5px 10px}
@@ -32,9 +32,14 @@ header{display:block;margin:40px auto 0;max-width:550px;padding:0 20px}
 .button_buy{margin:10px;padding:0}
 .button_whatsapp{background:#25d366;border-radius:12px;margin-top:45px;padding:0}
 .whatsApp-gif{background-image:url(3083e2a96efba71b036e.gif);background-repeat:no-repeat;background-size:contain;border-radius:20px;bottom:80px;flex-shrink:0;height:80px;margin:0;padding:0;position:absolute;right:5%;width:80px;z-index:-1}
-.questions-and-answers{display:flex;flex-wrap:wrap;margin:0 20px;padding:0}
-.questions{display:flex;flex-direction:column;flex-wrap:wrap;list-style-type:none;margin:0;padding:0;width:280px}
-.question{border-bottom:2px solid #d49bfc;display:flex;height:30px;margin:10px 0;padding:0;position:flex}
-.question__title{color:#fff;display:flex;font-family:Inter;font-size:17px;font-style:normal;font-weight:600;letter-spacing:-.289px;line-height:normal;margin:0 auto 0 0;padding:0}
+.questions-and-answers{align-content:flex-start;display:flex;flex-wrap:wrap;margin:0 20px;min-height:600px;padding:0}
+.questions{display:flex;flex-direction:column;flex-wrap:wrap;list-style-type:none;margin:35px 0;padding:0;width:98%}
+.question{border-bottom:2px solid #d49bfc;display:flex;flex-flow:row wrap;height:-moz-fit-content;height:fit-content;margin:10px 0;padding:0;position:flex}
+.question__title{color:#fff;display:flex;font-family:Inter;font-size:17px;font-style:normal;font-weight:600;letter-spacing:-.289px;line-height:normal;margin:0 0 10px;padding:0}
 .question__button{color:hsla(0,0%,100%,.9);display:flex;font-family:Inter;font-size:17px;font-style:normal;font-weight:600;letter-spacing:-.289px;line-height:normal;margin:0 0 0 auto;padding:0;position:flex;text-align:right;text-decoration:none}
+.question__answer{color:#fff;display:flex;font-family:Forum;font-size:17px;font-style:normal;font-weight:400;letter-spacing:-.289px;line-height:100%;margin:0 0 15px;padding:0;width:100%}
+.close{display:none}
+.footer{align-items:center;border-top:1px solid #d49bfc;display:flex;justify-content:space-between;margin:0 auto;width:88%}
+.footer__title{color:#d49bfc;display:flex;font-family:Inter;font-size:17px;font-style:normal;font-weight:700;letter-spacing:-.272px;line-height:normal;margin:4px 0 20px;padding:0}
+.footer__img{color:#d49bfc;display:flex;flex-shrink:0;margin:0 0 10px;max-width:90px;-o-object-fit:contain;object-fit:contain;padding:0}
 
