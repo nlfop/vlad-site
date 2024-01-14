@@ -1,10 +1,12 @@
 .questions-and-answers{
     min-height: 600px;
-    margin: 125px 20px 0;
-    padding: 0;
+    margin: 125px 0 0;
+    padding: 0 20px;
 
     display: flex;
     flex-wrap: wrap;
     align-content:flex-start;
 
+    position: relative;
+    overflow-x: hidden;
 }

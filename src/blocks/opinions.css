@@ -3,7 +3,10 @@
     padding: 0;
 
     display: flex;
+    position: relative;
     flex-direction: column;
+
+    /* overflow-x: hidden; */
 }
 /* 
 @media (min-width:450px){

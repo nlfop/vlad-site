@@ -1,0 +1,13 @@
+.substance-2{
+    width: 225px;
+    height: 225px;
+
+    background-image: url("../../image/3d-substance-2.png");
+    background-size: contain;
+    opacity: 0.5;
+
+    position: absolute;
+    top:-50px;
+    right: -20px;
+    z-index: -1;
+}
