@@ -1,7 +1,42 @@
 header{
-    max-width: 550px;
     display: block;
     padding: 0 20px;
     margin: 40px auto 0;
+}
 
+@media (min-width: 590px){
+    .header{
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 970px){
+    .header{
+        max-width: 510px;
+        margin: 0 auto;
+        padding: 0 0 0 20px;
+        display: inline-block;
+        flex-direction: row;
+
+        transform: translateY(-225px);
+    }
+}
+
+
+@media (min-width: 1050px){
+    .header{
+        padding: 0 0 0 100px;
+    }
+}
+
+@media (min-width: 1200px){
+    .header{
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1500px){
+    .header{
+        max-width: 60%;
+    }
 }

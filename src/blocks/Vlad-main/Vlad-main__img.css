@@ -14,3 +14,21 @@
     background-size: 260px;
     background-position: top left;
 }
+
+@media (min-width: 590px){
+    .Vlad-main__img{
+        max-width: 380px;
+        max-height: 437px;
+        background-size: 370px;
+    }
+}
+
+
+@media (min-width: 970px){
+    .Vlad-main__img{
+        max-width: 415px;
+        max-height: 525px;
+        background-size: 390px;
+        margin: 100px 0 0;
+    }
+}

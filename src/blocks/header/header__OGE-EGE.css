@@ -3,11 +3,37 @@
     min-height: 97px;
     flex-shrink: 0;
 
+    background-image: url("../../image/OGE-EGE-320.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
     margin: -10px 5% 0 auto;
     padding: 0;
 
-    background-image: url("../../image/OGE-EGE-320.svg");
-    background-repeat: no-repeat;
-
     fill: #C3BBC6;
+}
+
+@media (min-width: 590px){
+    .header__OGE-EGE{
+        max-width: 210px;
+        min-height: 155px;
+
+        background-image: url("../../image/OGE-EGE-590.svg");
+
+        margin: -50px 0 0 auto;
+    }
+}
+
+@media (min-width: 582px){
+    .header__OGE-EGE{
+        margin: 0 0 0 auto;
+    }
+}
+
+@media (min-width: 930px){
+    .header__OGE-EGE{
+        max-width: 360px;
+        background-image: url("../../image/OGE-EGE-930.svg");
+        margin: 50px 35% 0 auto;
+    }
 }
