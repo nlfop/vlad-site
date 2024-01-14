@@ -1,7 +1,12 @@
 .lessons-format{
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 20px 40px;
 
     display: flex;
     flex-direction: column;
+
+    background-image: url("../../image/long-gradient-flip.svg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right bottom;
 }

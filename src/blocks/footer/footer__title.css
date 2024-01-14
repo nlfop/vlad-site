@@ -1,16 +1,14 @@
-.question__title{
-    margin: 0 0 10px;
+.footer__title{
+    margin: 4px 0 20px;
     padding: 0;
 
     display: flex;
 
-    color: #FFF;
+    color: #D49BFC;
     font-family: Inter;
     font-size: 17px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
-    letter-spacing: -0.289px;
-
-    
+    letter-spacing: -0.272px;
 }

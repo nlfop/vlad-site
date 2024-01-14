@@ -46,3 +46,9 @@
 @import url("../blocks/questions-and-answers/question.css");
 @import url("../blocks/questions-and-answers/question__title");
 @import url("../blocks/questions-and-answers/question__button.css");
+@import url("../blocks/questions-and-answers/question__answer.css");
+@import url("../blocks/close.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer__title.css");
+@import url("../blocks/footer/footer__img.css");

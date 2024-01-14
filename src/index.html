@@ -10,8 +10,8 @@
 </head>
 <body class="page">
     <header class="header">
-        <h1 class="title">Твой репетитор</h1>
-        <p class="subtitle">по подготовке к</p>
+        <h1 class="title">Твой репетитор </h1>
+        <p class="subtitle"> по подготовке к</p>
         <div class="header__OGE-EGE"></div>
     </header>
     <main>
@@ -27,7 +27,7 @@
                                              по математике, физике,<br>
                                              ОГЭ или ЕГЭ<br>
                                              от 590₽/час</p>
-            <a href="#" class="button">    &lt подробнее &gt    </a> <!--     &lt - это "<"     &gt - это ">"     -->
+            <a href="#contacts" class="button">    &lt подробнее &gt    </a> <!--     &lt - это "<"     &gt - это ">"     -->
         </section>
 
         <!--Отзывы-->
@@ -101,7 +101,7 @@
                 <h3 class="lesson-card__title">Индивидуальные</h3>
                 <!-- <p class="lesson-card__description">Описание</p> -->
                 <p class="lesson-card__price">1500₽</p>
-                <a href="#" class="button button_buy">   &lt купить &gt  </a> <!--     &lt - это "<"     &gt - это ">"     -->
+                <a href="#contacts" class="button button_buy">    &lt купить &gt    </a> <!--     &lt - это "<"     &gt - это ">"     -->
             </article>
             <article class="lesson-card">
                 <h3 class="lesson-card__title">Групповые</h3>
@@ -111,7 +111,7 @@
                     &middot Доступные. Уверен, вы убедитесь, что цена-качество более чем соответствуют
                 </p>
                 <p class="lesson-card__price">от 590₽</p>
-                <a href="#" class="button button_buy">  &lt купить &gt  </a> <!--     &lt - это "<"     &gt - это ">"     -->
+                <a href="#contacts" class="button button_buy">  &lt купить &gt  </a> <!--     &lt - это "<"     &gt - это ">"     -->
             </article>
         </section>
 
@@ -119,7 +119,7 @@
         <section id="contacts" class="what-how">
             <h2 class="title"><br><br><br>Напишите мне</h2>
             <p class="subtitle"><br>и мы обсудим все детали<br></p>
-            <a href="#" class="button button_whatsapp">  &lt WhatsApp &gt  </a> <!--     &lt - это "<"     &gt - это ">"     -->
+            <a href="#" class="button button_whatsapp">   &lt WhatsApp &gt   </a> <!--     &lt - это "<"     &gt - это ">"     -->
             <div class="whatsApp-gif"></div>
         </section>
 
@@ -130,17 +130,32 @@
                 <li class="question">
                     <h5 class="question__title">Сколько и как оплачивать?</h5>
                     <a href="#" class="question__button">&gt</a>
+                    <p class="question__answer close">Стоимомть занятия обговаривается заранее.
+                        Оплата происходит после проведёного занятия переведом на карту. </p>
                 </li>
                 <li class="question">
                     <h5 class="question__title">Сколько надо занятий?</h5>
                     <a href="#" class="question__button">&gt</a>
+                    <p class="question__answer close">Зависит от тех результов, которых вы хотите достигнуть. 
+                        Это может быть как и один урок для понимания какой-то темы, так десяток-другой, если цель - 100 баллов на ЕГЭ </p>
+                </li>
+                <li class="question">
+                    <h5 class="question__title">Что нужно для обучения?</h5>
+                    <a href="#" class="question__button">&gt</a>
+                    <p class="question__answer close">Желание, лист бумаги и усердие) Всему остальному я научу в процессе</p>
+                </li>
+                <li class="question">
+                    <h5 class="question__title">Когда меня добавят в группу учеников?</h5>
+                    <a href="#" class="question__button">&gt</a>
+                    <p class="question__answer close">Моментально, если группа уже сформирована или через какое-то время, если ещё идёт набор</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <p>2024</p>
-        <img src="<%=require('./image/logo-niksor.svg')%>" alt="Никсор">
+    <!--Подвальчик-->
+    <footer class="footer">
+        <p class="footer__title">2024</p>
+        <a href="https://vk.com/salford_yt"><img class="footer__img" src="<%=require('./image/logo-niksor.svg')%>" alt="Никсор"></a>
     </footer>
 </body>
 </html>

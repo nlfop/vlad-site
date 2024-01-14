@@ -1,11 +1,12 @@
 .questions{
-    width: 280px;
-    margin: 0;
+    width: 98%;
+    margin: 35px 0;
     padding: 0;
 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    /* justify-content: space-between; */
 
     list-style-type: none;
 }

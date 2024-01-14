@@ -1,7 +1,10 @@
 .questions-and-answers{
+    min-height: 600px;
     margin: 0 20px;
     padding: 0;
 
     display: flex;
     flex-wrap: wrap;
+    align-content:flex-start;
+
 }
