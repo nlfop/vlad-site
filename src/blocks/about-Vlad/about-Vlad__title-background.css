@@ -1,0 +1,13 @@
+.about-Vlad__title-background{
+    max-width: 260px;
+
+    position: absolute;
+    left: 30px;
+    top: 375px;
+    
+    background-image: url("../../image/title-background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    z-index: 2;
+}

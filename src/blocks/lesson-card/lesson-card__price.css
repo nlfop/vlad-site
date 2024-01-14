@@ -1,0 +1,16 @@
+.lesson-card__price{
+    margin: 10px 0 0 auto;
+    padding: 0;
+    grid-area: price;
+
+    color: #E5E5E5;
+    text-align: right;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.51px;
+
+    white-space: nowrap;
+}

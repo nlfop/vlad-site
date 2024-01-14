@@ -1,0 +1,7 @@
+.Vlad__img{
+    max-width: 280px;
+    max-height: 280px;
+    flex-shrink: 0;
+
+    object-fit: cover;
+}

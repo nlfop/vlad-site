@@ -1,0 +1,12 @@
+.lesson-card__title{
+    margin: 5px 10px;
+    grid-area: title;
+
+    color: #D49BFC;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.51px;
+}

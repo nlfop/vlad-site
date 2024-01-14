@@ -1,0 +1,17 @@
+.lesson-card{
+    max-width: 280px;
+    flex-shrink: 0;
+
+    margin: 10px 10px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 42% 58%;
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas:
+        "title       title"
+        "description description"
+        "price       buy";
+
+    border-radius: 20px;
+    background: #9E29F0;
+}

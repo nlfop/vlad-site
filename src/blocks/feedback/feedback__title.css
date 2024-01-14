@@ -1,0 +1,16 @@
+.feedback__title{
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+    top: 93px;
+    left: 10px;
+
+    color: #C36FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 20px */
+    letter-spacing: -0.34px;
+}

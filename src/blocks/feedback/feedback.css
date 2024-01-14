@@ -1,0 +1,15 @@
+.feedback{
+    max-width: 130px;
+    height: auto;
+    flex-shrink: 0;
+
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+
+    border-radius: 65px 65px 25px 25px;
+    background: #1A002D;
+
+    /* overflow: hidden; */
+}
