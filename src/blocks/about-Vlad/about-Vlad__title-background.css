@@ -1,9 +1,9 @@
 .about-Vlad__title-background{
-    max-width: 260px;
+    max-width: 90%;
 
     position: absolute;
-    left: 30px;
-    top: 375px;
+    left: 10px;
+    bottom: 10px;
     
     background-image: url("../../image/title-background.svg");
     background-repeat: no-repeat;
