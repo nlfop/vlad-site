@@ -1,4 +1,6 @@
 .button_buy{
-    margin: 10px;
+    width: 90%;
+    height: 70%; 
+    margin: auto;
     padding: 0;
 }
