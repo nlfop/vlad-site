@@ -1,0 +1,10 @@
+.question{
+    height: 30px;
+    margin: 10px 0;
+    padding: 0;
+
+    display: flex;
+    position: flex;
+
+    border-bottom: 2px solid #D49BFC;
+}

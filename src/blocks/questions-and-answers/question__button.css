@@ -1,0 +1,17 @@
+.question__button{
+    margin: 0 0 0 auto;
+    padding: 0;
+    
+    display: flex;
+    position: flex;
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.90);
+    text-align: right;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.289px;
+}

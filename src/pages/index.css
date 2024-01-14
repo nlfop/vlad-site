@@ -3,11 +3,10 @@
 
 @import url("../blocks/page.css");
 @import url("../blocks/title.css");
-@import url("../blocks/button.css");
+@import url("../blocks/subtitle.css");
+@import url("../blocks/button/button.css");
 
 @import url("../blocks/header/header.css");
-@import url("../blocks/header/header__title.css");
-@import url("../blocks/header/header__subtitle.css");
 @import url("../blocks/header/header__OGE-EGE.css");
 
 @import url("../blocks/Vlad-main/Vlad-main.css");
@@ -37,3 +36,13 @@
 @import url("../blocks/lesson-card/lesson-card__title.css");
 @import url("../blocks/lesson-card/lesson-card__description.css");
 @import url("../blocks/lesson-card/lesson-card__price.css");
+@import url("../blocks/button/button_buy.css");
+
+@import url("../blocks/button/button_whatsapp.css");
+@import url("../blocks/whatsApp-gif.css");
+
+@import url("../blocks/questions-and-answers/questions-and-answers.css");
+@import url("../blocks/questions-and-answers/questions.css");
+@import url("../blocks/questions-and-answers/question.css");
+@import url("../blocks/questions-and-answers/question__title");
+@import url("../blocks/questions-and-answers/question__button.css");

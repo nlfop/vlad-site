@@ -8,4 +8,6 @@
     grid-auto-flow: row;
 
     position: relative;
+
+    list-style-type: none;
 }

@@ -1,0 +1,19 @@
+.whatsApp-gif{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+
+    position: absolute;
+    right: 5%;
+    bottom: 80px;
+
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+
+    background-image: url("../image/whatsapp.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    z-index: -1;
+}
