@@ -44,7 +44,7 @@ header{display:block;margin:40px auto 0;max-width:550px;padding:0 20px}
 .question__button{color:hsla(0,0%,100%,.9);display:flex;font-family:Inter;font-size:17px;font-style:normal;font-weight:600;letter-spacing:-.289px;line-height:normal;margin:0 0 0 auto;padding:0;position:flex;text-align:right;text-decoration:none}
 .question__answer{color:#fff;display:flex;font-family:Forum;font-size:17px;font-style:normal;font-weight:400;letter-spacing:-.289px;line-height:100%;margin:0 0 15px;padding:0;width:100%}
 .close{display:none}
-.substance-4{background-image:url(db11522ffe2a76fd8dca.png);background-size:contain;height:250px;opacity:.8;position:absolute;right:-100px;top:0;width:250px;z-index:-1}
+.substance-4{background-image:url(db11522ffe2a76fd8dca.png);background-size:contain;bottom:40px;height:250px;opacity:.8;position:absolute;right:-100px;width:250px;z-index:-1}
 .footer{align-items:center;border-top:1px solid #d49bfc;display:flex;justify-content:space-between;margin:0 auto;width:88%}
 .footer__title{color:#d49bfc;display:flex;font-family:Inter;font-size:17px;font-style:normal;font-weight:700;letter-spacing:-.272px;line-height:normal;margin:4px 0 20px;padding:0}
 .footer__img{color:#d49bfc;display:flex;flex-shrink:0;margin:0 0 10px;max-width:90px;-o-object-fit:contain;object-fit:contain;padding:0}
