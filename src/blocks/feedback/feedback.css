@@ -13,3 +13,18 @@
 
     /* overflow: hidden; */
 }
+
+
+@media (min-width: 590px){
+    .feedback{
+        max-width: 155px;
+        border-radius: 100px 100px 35px 35px;
+    }
+}
+
+@media (min-width: 930px){
+    .feedback{
+        max-width: 250px;
+        border-radius: 125px 125px 60px 60px;
+    }
+}

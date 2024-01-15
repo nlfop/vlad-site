@@ -9,3 +9,19 @@
     border-radius: 65px 65px 50px 50px;
     object-fit: cover;
 }
+
+@media (min-width: 590px){
+    .feedback__img{
+        width: 155px;
+        max-height: 135px;
+        border-radius: 100px 100px 60px 60px;
+    }
+}
+
+@media (min-width: 930px){
+    .feedback__img{
+        width: 250px;
+        max-height: 210px;
+        border-radius: 125px 125px 60px 60px;
+    }
+}

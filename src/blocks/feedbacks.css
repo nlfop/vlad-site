@@ -16,12 +16,42 @@
 
 @media (min-width:450px){
     .feedbacks{
-        max-width:430px
+        max-width:430px  /*вмещаются 3 блока по 130*/
     }
 }
 
-@media (min-width:605px){
+@media (min-width:590px){
     .feedbacks{
-        max-width: 580px;
+        grid-template-columns: repeat(auto-fit, 155px);
+        max-width: 590px; /*вмещаются 3 блока по 155*/
+        gap: 35px;
+    }
+}
+
+@media (min-width: 725px){
+    .feedbacks{
+        grid-template-columns: repeat(auto-fit, 155px);
+        max-width: 930px; /*вмещаются 4 блока по 155*/
+        gap: 35px;
+    }
+}
+
+@media (min-width:930px){
+    .feedbacks{
+        grid-template-columns: repeat(auto-fit, 250px);
+        max-width: 550px;  /*вмещаются 2 блока по 250*/
+        gap: 45px;
+    }
+}
+
+@media (min-width:1250px){
+    .feedbacks{
+        max-width: 850px;
+    }
+}
+
+@media (min-width:1600px){
+    .feedbacks{
+        max-width: 1150px;
     }
 }

@@ -1,5 +1,5 @@
 .feedback__subtitle{
-    margin: 30px 10px 5px;
+    margin: 30px auto 5px 10px;
     padding: 0;
     
     display: flex;
@@ -14,4 +14,23 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.17px;
+}
+
+@media (min-width: 590px){
+    .feedback__subtitle{
+        margin-top: 35px;
+
+        font-size: 12.5px;
+        letter-spacing: -0.213px;
+    }
+}
+
+@media (min-width: 930px){
+    .feedback__subtitle{
+        margin-top: 40px;
+        margin-left: 20px;
+
+        font-size: 17px;
+        letter-spacing: -0.289px;
+    }
 }
