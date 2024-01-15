@@ -1,6 +1,9 @@
 .slider{
     width: 85%;
-    height: 85%;
+    height: auto;
+
+    max-width: 600px;
+    max-height: 600px;
     flex-shrink: 0;
 
     margin: 10px 0;
@@ -10,4 +13,18 @@
     border-radius: 30px;
     background: #D9D9D9;
     overflow: hidden;
+}
+
+@media (min-width: 450px){
+    .slider{
+        width: 75%;
+        margin: 20px 0;
+    }
+}
+
+
+@media (min-width: 590px){
+    .slider{
+        width: 85%;
+    }
 }

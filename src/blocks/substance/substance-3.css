@@ -1,6 +1,6 @@
 .substance-3{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 
     background-image: url("../../image/3d-substance-3.png");
     background-size: contain;
@@ -8,7 +8,20 @@
     
     display: none;
     position: absolute;
-    top:-50px;
+    top: 55%;
     right: -20px;
-    z-index: -1;
+    z-index: 0;
+}
+
+@media (min-width: 590px){
+    .substance-3{
+        display: block;
+    }
+}
+
+@media (min-width: 930px){
+    .substance-3{
+        width: 400px;
+        height: 400px;
+    }
 }

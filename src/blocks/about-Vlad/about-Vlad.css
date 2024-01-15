@@ -1,5 +1,5 @@
 .about-Vlad{
-    max-width: 550px;
+    max-width: 500px;
     min-height: 400px;
     padding: 70px 20px 40px;
     margin: 0 auto 0;
@@ -8,11 +8,36 @@
     position: relative;
     flex-direction: column;
 
-    display: block;
-    position: relative;
-
     background-image: url("../../image/long-gradient.svg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: left -50px bottom;
 }
+
+
+@media (min-width: 590px){
+    .about-Vlad{
+        background-size: 550px;
+        padding: 70px 40px 40px;
+        margin: 0 auto 0 0;
+    }
+}
+
+
+@media (min-width: 930px){
+    .about-Vlad{
+        max-width: 850px;
+        min-height: 850px;
+        background-size: 700px;
+
+    }
+}
+
+@media (min-width: 1200px){
+    .about-Vlad{
+        max-width: 1500px;
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+}
+

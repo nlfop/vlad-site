@@ -9,4 +9,34 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.289px;
+    z-index: 2;
+}
+
+
+@media (min-width: 590px){
+    .about-Vlad__description{
+        font-size: 25px;
+        letter-spacing: -0.425px;
+    }
+}
+
+@media (min-width: 930px){
+    .about-Vlad__description{
+        font-size: 40px;
+        letter-spacing: -0.68px;
+    }
+}
+
+@media (min-width: 1200px){
+    .about-Vlad__description{
+        max-width: 45%;
+        margin: auto;
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 1500px){
+    .about-Vlad__description{
+        max-width: 55%;
+    }
 }

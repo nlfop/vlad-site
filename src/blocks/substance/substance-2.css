@@ -11,3 +11,17 @@
     right: -20px;
     z-index: -1;
 }
+
+@media (min-width: 590px){
+    .substance-2{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 930px){
+    .substance-2{
+        width: 350px;
+        height: 350px;
+    }
+}

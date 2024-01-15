@@ -5,9 +5,26 @@
     left: 10px;
     bottom: 10px;
     
-    background-image: url("../../image/title-background.svg");
+    background-image: url("../../image/title-background-320.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left bottom;
     z-index: 2;
+}
+
+@media (min-width: 590px){
+    .about-Vlad__title-background{
+        left: 20px;
+        bottom: 20px;
+
+        background-image: url("../../image/title-background-590.svg");
+    }
+}
+
+
+@media (min-width: 930px){
+    .about-Vlad__title-background{
+        left: 40px;
+        bottom: 40px;
+    }
 }

@@ -40,3 +40,10 @@ header{
         max-width: 60%;
     }
 }
+
+@media (min-width: 1680px){
+    .header{
+        max-width: 60%;
+        transform: translateY(-275px);
+    }
+}
