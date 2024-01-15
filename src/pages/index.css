@@ -10,6 +10,8 @@
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/header__OGE-EGE.css");
 
+@import url("../blocks/main.css");
+
 @import url("../blocks/Vlad-main/Vlad-main.css");
 @import url("../blocks/Vlad-main/Vlad-main__title.css");
 @import url("../blocks/Vlad-main/Vlad-main__img.css");
