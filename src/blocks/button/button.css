@@ -19,3 +19,18 @@
 
     grid-area: buy;
 }
+
+@media (min-width: 590px){
+    .button{
+        font-size: 40px;
+        letter-spacing: -0.68px;
+    }
+}
+
+
+@media (min-width: 930px){
+    .button{    
+        font-size: 50px;
+        letter-spacing: -0.85px;
+    }
+}

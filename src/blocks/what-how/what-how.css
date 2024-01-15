@@ -14,3 +14,19 @@
 
     overflow-x: hidden;
 }
+
+@media (min-width: 590px){
+    .what-how{
+        max-width: 930px;
+        min-height: 800px;
+        background-size: 500px;
+    }
+}
+
+
+@media (min-width: 930px){
+    .what-how{
+        max-width: 700px;
+        margin: 100px 0 0 0;
+    }
+}

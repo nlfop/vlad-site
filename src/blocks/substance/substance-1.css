@@ -10,3 +10,21 @@
     top:0;
     right: -100px;
 }
+
+
+@media (min-width: 590px){
+    .substance-1{
+        width: 300px;
+        height: 300px;
+        right: -50px;
+    }
+}
+
+
+@media (min-width: 930px){
+    .substance-1{  
+        font-size: 50px;
+        letter-spacing: -0.85px;
+        right: 0;
+    }
+}
