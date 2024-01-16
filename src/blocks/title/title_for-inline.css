@@ -1,5 +1,5 @@
 @media (min-width: 1200px) {
     .title_for-inline{
-        padding-right:30%;
+        padding-right: calc(100% - 600px);
     }    
 }

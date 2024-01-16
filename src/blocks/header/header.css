@@ -17,8 +17,6 @@ header{
         padding: 0 0 0 20px;
         display: inline-block;
         flex-direction: row;
-
-        transform: translateY(-225px);
     }
 }
 
@@ -44,6 +42,5 @@ header{
 @media (min-width: 1680px){
     .header{
         max-width: 60%;
-        transform: translateY(-275px);
     }
 }

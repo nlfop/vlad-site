@@ -16,19 +16,6 @@
 
 @media (min-width: 1900px){
     .Vlad-main{
-        margin: 80px 10% 0;
-    }
-}
-
-/*Мини калхоз чтобы всё не съехало*/
-@media (min-width: 2500px){
-    .Vlad-main{
-        padding-right: 18%;
-    }
-}
-
-@media (min-width: 3250px){
-    .Vlad-main{
-        padding-right: 25%;
+        padding: 0 calc((100% - 1500px)/2.5) 0;
     }
 }

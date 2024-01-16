@@ -1,8 +1,9 @@
 .lesson-card__description{
+    max-width: 275px;
+
     margin: 5px 10px;
     grid-area: description;
 
-    max-width: 275px;
     color: rgba(255, 255, 255, 0.90);
     font-family: Forum;
     font-size: 17px;
@@ -10,4 +11,25 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.289px;
+}
+
+@media(min-width: 590px){
+    .lesson-card__description{
+        max-width: 500px;
+
+        margin: 10px 15px;
+
+        font-size: 27px;
+        letter-spacing: -0.459px;
+    }
+}
+
+
+@media(min-width: 930px){
+    .lesson-card__description{
+        margin: auto 15px;
+
+        font-size: 20px;
+        letter-spacing: -0.34px;
+    }
 }

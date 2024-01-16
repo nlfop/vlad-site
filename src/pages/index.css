@@ -42,6 +42,7 @@
 
 @import url("../blocks/lessons-format/lessons-format.css");
 @import url("../blocks/lessons-format/lessons-format__description.css");
+@import url("../blocks/lesson-cards.css");
 @import url("../blocks/lesson-card/lesson-card.css");
 @import url("../blocks/lesson-card/lesson-card__title.css");
 @import url("../blocks/lesson-card/lesson-card__description.css");

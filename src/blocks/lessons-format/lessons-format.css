@@ -10,3 +10,18 @@
     background-size: 400px;
     background-position: right bottom;
 }
+
+@media (min-width: 590px){
+    .lessons-format{
+        background-size: 550px;
+    }
+}
+
+@media (min-width: 1250px){
+    .lessons-format{
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-image: url("../../image/square-gradient-flip.svg");
+        transform: translateY(-300px);
+    }
+}

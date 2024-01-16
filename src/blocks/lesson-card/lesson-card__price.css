@@ -14,3 +14,18 @@
 
     white-space: nowrap;
 }
+
+
+@media(min-width: 590px){
+    .lesson-card__price{
+        font-size: 30px;
+        letter-spacing: -0.51px;
+    }
+}
+
+@media(min-width: 930px){
+    .lesson-card__price{
+        font-size: 45px;
+        letter-spacing: -0.765px;
+    }
+}

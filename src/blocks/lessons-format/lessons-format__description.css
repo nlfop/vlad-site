@@ -1,6 +1,6 @@
 .lessons-format__description{
     padding: 0;
-    margin: 10px auto 0;
+    margin: 10px auto 0 0;
 
     color: #FFF;
     font-family: Forum;
@@ -9,4 +9,24 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.289px;
+}
+
+@media (min-width: 590px) {
+    .lessons-format__description{
+        margin: 20px auto 0 10px;
+        font-size: 25px;
+        letter-spacing: -0.425px;
+    }
+}
+
+
+@media (min-width: 930px) {
+    .lessons-format__description{
+        max-width: 50%;
+
+        margin: 10px 30px 0 0;
+
+        font-size: 40px;
+        letter-spacing: -0.68px;
+    }
 }
