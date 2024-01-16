@@ -30,3 +30,12 @@
         margin: 100px 0 0 0;
     }
 }
+
+@media (min-width: 1250px){
+    .what-how{
+        padding: 0 0 0 40px;
+        margin: 0 auto 0 0;
+        display: inline-block;
+        overflow-x: visible;
+    }
+}

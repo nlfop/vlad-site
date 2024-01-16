@@ -9,7 +9,7 @@
     display: none;
     position: absolute;
     top: 55%;
-    right: -20px;
+    right: 0px;
     z-index: 0;
 }
 
@@ -23,5 +23,12 @@
     .substance-3{
         width: 400px;
         height: 400px;
+    }
+}
+
+
+@media (min-width: 1250px){
+    .substance-3{
+        right: 0;
     }
 }

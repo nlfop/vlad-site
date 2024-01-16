@@ -27,6 +27,16 @@
 
 @media (min-width: 930px){
     .feedback__title{
+        font-size: 32px;
+        letter-spacing: -0.544px;
+
+        top: 153px;
+    }
+}
+
+
+@media (min-width: 1250px){
+    .feedback__title{
         font-size: 35px;
         letter-spacing: -0.595px;
 

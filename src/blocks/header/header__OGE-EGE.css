@@ -34,6 +34,12 @@
     .header__OGE-EGE{
         max-width: 360px;
         background-image: url("../../image/OGE-EGE-930.svg");
+        margin: -50px 5% 0 auto;
+    }
+}
+
+@media (min-width: 970px){
+    .header__OGE-EGE{
         margin: 50px 35% 0 auto;
     }
 }

@@ -28,3 +28,9 @@
         right: 0;
     }
 }
+
+@media (min-width: 1250px){
+    .substance-1{
+        right: -250px;
+    }
+}

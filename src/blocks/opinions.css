@@ -13,10 +13,35 @@
     .opinions{
         max-width: 430px;
     }
-}
+}*/
 
-@media (min-width:600px){
+@media (min-width: 1250px){
     .opinions{
-        max-width: 580px;
+        width: fit-content;
+        margin: 0 40px 0 0;
+        padding-left: calc(100% - 590px); /*100% минус ширина блока с 2мя карточками и отступ 40px*/
+        display: inline-flex;
+        transform:translateY(-650px) 
     }
-} */
+} 
+
+@media (min-width: 1550px){
+    .opinions{
+        width: fit-content;
+        margin: 0;
+        padding-left: calc(100% - 890px); /*100% минус ширина блока с 3мя карточками и отступ 40px*/
+        display: inline-flex;
+        transform:translateY(-650px) 
+    }
+} 
+
+@media (min-width: 1800px){
+    .opinions{
+        width: fit-content;
+        margin: 0 40px 0 0;
+        padding-left: calc(100% - 1180px); /*100% минус ширина блока с 4мя карточками и отступ 40px*/
+        display: inline-flex;
+        transform:translateY(-650px) 
+    }
+} 
+

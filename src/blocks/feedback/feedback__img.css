@@ -20,8 +20,16 @@
 
 @media (min-width: 930px){
     .feedback__img{
+        width: 230px;
+        max-height: 180px;
+        border-radius: 125px 125px 60px 60px;
+    }
+}
+
+
+@media (min-width: 1250px){
+    .feedback__img{
         width: 250px;
         max-height: 210px;
-        border-radius: 125px 125px 60px 60px;
     }
 }

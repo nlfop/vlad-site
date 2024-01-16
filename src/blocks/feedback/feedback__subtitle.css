@@ -27,10 +27,15 @@
 
 @media (min-width: 930px){
     .feedback__subtitle{
-        margin-top: 40px;
         margin-left: 20px;
 
         font-size: 17px;
         letter-spacing: -0.289px;
+    }
+}
+
+@media (min-width: 1250px){
+    .feedback__subtitle{
+        margin-top: 40px;
     }
 }

@@ -38,19 +38,34 @@
 
 @media (min-width:930px){
     .feedbacks{
-        grid-template-columns: repeat(auto-fit, 250px);
-        max-width: 550px;  /*вмещаются 2 блока по 250*/
+        grid-template-columns: repeat(auto-fit, 230px);
+        max-width: 810px;  /*вмещаются 2 блока по 250*/
         gap: 45px;
+    }
+}
+
+@media (min-width:1100px){
+    .feedbacks{
+        max-width: 1100px;
     }
 }
 
 @media (min-width:1250px){
     .feedbacks{
+        margin: 15px 0 0 auto;
+
+        grid-template-columns: repeat(auto-fit, 250px);
+        max-width: 600px;
+    }
+}
+
+@media (min-width:1550px){
+    .feedbacks{
         max-width: 850px;
     }
 }
 
-@media (min-width:1600px){
+@media (min-width:1800px){
     .feedbacks{
         max-width: 1150px;
     }

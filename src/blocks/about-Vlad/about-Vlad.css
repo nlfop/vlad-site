@@ -1,10 +1,10 @@
 .about-Vlad{
     max-width: 500px;
-    min-height: 400px;
+    min-height: 425px;
     padding: 70px 20px 40px;
     margin: 0 auto 0;
 
-    display: flex;
+    display: inline-flex;
     position: relative;
     flex-direction: column;
 
@@ -33,11 +33,16 @@
     }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1250px){
     .about-Vlad{
         max-width: 1500px;
+        min-height: fit-content;
+        background-image: url("../../image/square-gradient.svg");
+        background-position: left -50px bottom;
         flex-direction: row;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
+
+        transform: translateY(-650px);
     }
 }
 
