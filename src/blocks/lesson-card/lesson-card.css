@@ -7,7 +7,7 @@
     display: inline-grid;
     
     grid-template-columns: 40% 60%;
-    grid-template-rows: fit-content auto fit-content ;
+    grid-template-rows: 50px auto 50px;
     grid-template-areas:
         "title       title"
         "description description"
@@ -20,6 +20,7 @@
 @media(min-width: 590px){
     .lesson-card{
         grid-template-columns: 50% 50%;
+        grid-template-rows: 50px auto 60px;
         
         max-width: 545px;
         border-radius: 25px;
@@ -31,6 +32,7 @@
 @media(min-width: 930px){
     .lesson-card{
         grid-template-columns: 44% 56%;
+        grid-template-rows: 80px auto 80px;
 
         min-width: 600px;
         border-radius: 30px;

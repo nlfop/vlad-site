@@ -1,3 +1,9 @@
 .title_opinions{
-    text-align: right;
+    text-align: left;
+}
+
+@media (min-width: 1250px){
+    .title_opinions{
+        text-align: right;
+    }
 }
