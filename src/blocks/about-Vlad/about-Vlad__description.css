@@ -1,6 +1,8 @@
 .about-Vlad__description{
+    max-width: 280px;
+
     padding: 0;
-    margin: 10px auto 0;
+    margin: 10px 0 0 0;
 
     color: #FFF;
     font-family: Forum;
@@ -15,6 +17,8 @@
 
 @media (min-width: 590px){
     .about-Vlad__description{
+        max-width: 510px;
+
         font-size: 25px;
         letter-spacing: -0.425px;
     }

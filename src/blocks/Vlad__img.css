@@ -1,8 +1,7 @@
 .Vlad__img{
-    max-width: 600px;
-    max-height: 600px;
-    width: inherit;
-    height: inherit;
+    width: 85%;
+    height: auto;
+    
     flex-shrink: 0;
 
     object-fit: cover;

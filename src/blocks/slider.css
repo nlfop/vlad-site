@@ -1,10 +1,10 @@
 .slider{
+    max-width: 320px;
+    max-height: 320px;
+    flex-shrink: 0;
+
     width: 85%;
     height: auto;
-
-    max-width: 600px;
-    max-height: 600px;
-    flex-shrink: 0;
 
     margin: 10px 0;
     padding: 0;
@@ -17,7 +17,8 @@
 
 @media (min-width: 450px){
     .slider{
-        width: 75%;
+        max-width: 400px;
+        max-height: 400px;
         margin: 20px 0;
     }
 }
@@ -25,6 +26,7 @@
 
 @media (min-width: 590px){
     .slider{
-        width: 85%;
+        max-width: 600px;
+        max-height: 600px;
     }
 }
