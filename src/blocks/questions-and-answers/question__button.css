@@ -15,3 +15,11 @@
     line-height: normal;
     letter-spacing: -0.289px;
 }
+
+
+@media (min-width:590px){
+    .question__button{
+        font-size: 30px;
+        letter-spacing: -0.51px;
+    }
+}

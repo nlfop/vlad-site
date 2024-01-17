@@ -32,7 +32,7 @@
     .lesson-card{
         grid-template-columns: 44% 56%;
 
-        min-width: 580px;
+        min-width: 600px;
         border-radius: 30px;
     }
 }

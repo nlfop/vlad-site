@@ -17,3 +17,22 @@
 
     z-index: -1;
 }
+
+
+@media (min-width: 590px){
+    .whatsApp-gif{
+        width: 120px;
+        height: 120px;
+        bottom: 355px;
+    }
+}
+
+
+
+@media (min-width:  930px){
+    .whatsApp-gif{
+        width: 120px;
+        height: 120px;
+        bottom: 250px;
+    }
+}

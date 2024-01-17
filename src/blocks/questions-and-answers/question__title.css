@@ -11,6 +11,11 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.289px;
+}
 
-    
+@media (min-width:590px){
+    .question__title{
+        font-size: 30px;
+        letter-spacing: -0.51px;
+    }
 }

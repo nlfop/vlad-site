@@ -5,8 +5,15 @@
 
     display: flex;
     flex-wrap: wrap;
-    align-content:flex-start;
+    align-content: flex-start;
 
     position: relative;
     overflow-x: hidden;
+}
+
+
+@media (min-width:590px){
+    .questions-and-answers{
+        padding: 0 40px;
+    }
 }

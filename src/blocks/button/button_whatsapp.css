@@ -1,6 +1,19 @@
 .button_whatsapp{
     margin-top: 45px;
-    padding: 0;
     border-radius: 12px;
     background: #25D366;
+}
+
+
+
+@media (min-width: 590px){
+    .button_whatsapp{
+        margin-top: 95px;
+    }
+}
+
+@media (min-width: 930px){
+    .button_whatsapp{
+        margin-top: 45px;
+    }
 }

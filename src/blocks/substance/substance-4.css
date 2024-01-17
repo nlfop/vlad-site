@@ -11,3 +11,19 @@
     right: -100px;
     z-index: -1;
 }
+
+
+@media (min-width:590px){
+    .substance-4{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 930px){
+    .substance-4{
+        right: 10%;
+        top: 25%;
+    }
+}
+
