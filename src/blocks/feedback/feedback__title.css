@@ -1,8 +1,7 @@
 .feedback__title{
-    margin: 0;
+    margin: 0 0 0 10px;
     padding: 0;
 
-    position: absolute;
     top: 93px;
     left: 10px;
 
@@ -17,6 +16,8 @@
 
 @media (min-width: 590px){
     .feedback__title{
+        margin: 5px 0 0 10px;
+
         font-size: 25px;
         letter-spacing: -0.425px;
 
@@ -27,6 +28,8 @@
 
 @media (min-width: 930px){
     .feedback__title{
+        margin: 10px 0 0 20px;
+
         font-size: 32px;
         letter-spacing: -0.544px;
 

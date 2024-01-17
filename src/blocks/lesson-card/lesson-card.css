@@ -32,7 +32,7 @@
 @media(min-width: 930px){
     .lesson-card{
         grid-template-columns: 44% 56%;
-        grid-template-rows: 80px auto 80px;
+        grid-template-rows: 80px auto 65px;
 
         min-width: 600px;
         border-radius: 30px;
