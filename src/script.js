@@ -25,3 +25,20 @@ questions.forEach((qstn) => {
         }
     })
 })
+
+const questions_main = document.querySelectorAll(".questions")
+questions_main.forEach((qstn) => {
+    qstn.addEventListener('click', () =>{
+        const quote_question = qstn.nextElementSibling.nextElementSibling;
+        const text = qstn.nextElementSibling.nextElementSibling.nextElementSibling;
+        if (text.classList.contains('close')){
+            // qstn.textContent = "⌄"
+            quote_question.style.transform = "rotate(90deg)";
+            text.classList.remove('close');
+        }
+        else{
+            quote_question.style.transform = "rotate(0)";
+            text.classList.add('close');
+        }
+    })
+})
