@@ -27,10 +27,10 @@ questions.forEach((qstn) => {
 })
 
 const questions_main = document.querySelectorAll(".question")
-questions_main.forEach((qstn) => {
-    qstn.addEventListener('click', () =>{
-        const quote_question = qstn.nextElementSibling.nextElementSibling;
-        const text = qstn.nextElementSibling.nextElementSibling.nextElementSibling;
+questions_main.forEach((qstn_m) => {
+    qstn_m.addEventListener('click', () =>{
+        const quote_question = qstn_m.children[1];
+        const text = qstn_m.children[2];
         if (text.classList.contains('close')){
             // qstn.textContent = "⌄"
             quote_question.style.transform = "rotate(90deg)";
