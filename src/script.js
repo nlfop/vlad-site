@@ -26,6 +26,25 @@ questions.forEach((qstn) => {
     }
 ) })
 
+const questionsTouch = document.querySelectorAll(".question_touch")
+questionsTouch.forEach((qstnTouch) => {
+  qstnTouch.addEventListener('click', () =>{
+        const quote_question = qstnTouch.getElementsByClassName("question__button");
+        const text_question = qstnTouch.getElementsByClassName("question__answer");
+        alert(text_question.text)
+        // if (text.classList.contains('close')){
+        //     // qstn.textContent = "⌄"
+        //     qstnTouch.style.transform = "rotate(90deg)";
+        //     text.classList.remove('close');
+        // }
+        // else{
+        //     qstnTouch.style.transform = "rotate(0)";
+        //     text.classList.add('close');
+        // }
+    }
+) })
+
+
 // const questions_main = document.querySelectorAll(".question__title")
 // questions_main.forEach((qstn_m) => {
 //     qstn_m.addEventListener('click', () =>{
