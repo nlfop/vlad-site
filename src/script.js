@@ -29,9 +29,10 @@ questions.forEach((qstn) => {
 const questionsTouch = document.querySelectorAll(".question_touch")
 questionsTouch.forEach((qstnTouch) => {
   qstnTouch.addEventListener('click', () =>{
-        const quote_question = qstnTouch.getElementsByClassName("question__button");
-        const text_question = qstnTouch.getElementsByClassName("question__answer");
-        if(quote_question==null)alert(1)
+        alert(1)
+        // const quote_question = qstnTouch.getElementsByClassName("question__button");
+        // const text_question = qstnTouch.getElementsByClassName("question__answer");
+        // if(quote_question==null)alert(1)
         // if (text.classList.contains('close')){
         //     // qstn.textContent = "⌄"
         //     qstnTouch.style.transform = "rotate(90deg)";
