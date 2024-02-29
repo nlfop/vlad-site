@@ -31,7 +31,7 @@ const questions_main = document.querySelectorAll(".question_but")
 questions_main.forEach((qstn_m) => {
     qstn_m.addEventListener('click', () =>{
         const quote_question = qstn_m.nextElementSibling;
-        if (quote_question==null) alert(1)
+        alert(1)
         const text = quote_question.nextElementSibling;
         if (text.classList.contains('close')){
             // qstn.textContent = "⌄"
