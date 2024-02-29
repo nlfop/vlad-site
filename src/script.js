@@ -31,7 +31,7 @@ questionsTouch.forEach((qstnTouch) => {
   qstnTouch.addEventListener('click', () =>{
         const quote_question = qstnTouch.getElementsByClassName("question__button");
         const text_question = qstnTouch.getElementsByClassName("question__answer");
-        alert(text_question.text)
+        if(quote_question==null)alert(1)
         // if (text.classList.contains('close')){
         //     // qstn.textContent = "⌄"
         //     qstnTouch.style.transform = "rotate(90deg)";
