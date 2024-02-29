@@ -10,21 +10,21 @@ new Swiper('.swiper-container', {
     //initialSlide: 1, //Слайд с которго начать
 });
 
-const questions = document.querySelectorAll(".question__button")
-questions.forEach((qstn) => {
-    qstn.addEventListener('click', () =>{
-        const text = qstn.nextElementSibling;
-        if (text.classList.contains('close')){
-            // qstn.textContent = "⌄"
-            qstn.style.transform = "rotate(90deg)";
-            text.classList.remove('close');
-        }
-        else{
-            qstn.style.transform = "rotate(0)";
-            text.classList.add('close');
-        }
-    })
-})
+// const questions = document.querySelectorAll(".question__button")
+// questions.forEach((qstn) => {
+//     qstn.addEventListener('click', () =>{
+//         const text = qstn.nextElementSibling;
+//         if (text.classList.contains('close')){
+//             // qstn.textContent = "⌄"
+//             qstn.style.transform = "rotate(90deg)";
+//             text.classList.remove('close');
+//         }
+//         else{
+//             qstn.style.transform = "rotate(0)";
+//             text.classList.add('close');
+//         }
+//     })
+// })
 
 // const questions_main = document.querySelectorAll(".question__title")
 // questions_main.forEach((qstn_m) => {
