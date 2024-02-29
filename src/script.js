@@ -29,7 +29,7 @@ questions.forEach((qstn) => {
 
 
 
-  const questions_main = document.querySelectorAll("question")
+  const questions_main = document.querySelectorAll(".question")
 questions_main.forEach((qstn_m) => {
     qstn_m.addEventListener('click', () =>{
         const quote_question = qstn_m.getElementsByClassName("question__button");
