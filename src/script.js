@@ -62,6 +62,6 @@ questions_main.forEach((qstn_m) => {
 //         else{
 //             quote_question.style.transform = "rotate(0)";
 //             text.classList.add('close');
-//         }
+//         
 //     })
 // })
