@@ -27,7 +27,7 @@ questions.forEach((qstn) => {
 )
   })
 
-const questions_main = document.querySelectorAll(".question_but")
+const questions_main = document.querySelectorAll("question__title")
 questions_main.forEach((qstn_m) => {
     qstn_m.addEventListener('click', () =>{
         const quote_question = qstn_m.nextElementSibling;
