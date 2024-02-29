@@ -23,7 +23,7 @@ new Swiper('.swiper-container', {
 //             qstn.style.transform = "rotate(0)";
 //             text.classList.add('close');
 //         }
-//     })
+//     }
 // )
 
 // const questions_main = document.querySelectorAll(".question__title")
