@@ -27,10 +27,12 @@ questions.forEach((qstn) => {
 )
   })
 
-const questions_main = document.querySelectorAll("question__title")
+
+
+  const questions_main = document.querySelectorAll("question")
 questions_main.forEach((qstn_m) => {
     qstn_m.addEventListener('click', () =>{
-        const quote_question = qstn_m.nextElementSibling;
+        const quote_question = qstn_m.getElementsByClassName("question__button");
         alert(1)
         const text = quote_question.nextElementSibling;
         if (text.classList.contains('close')){
@@ -44,3 +46,21 @@ questions_main.forEach((qstn_m) => {
         }
     })
 })
+
+// const questions_main = document.querySelectorAll("question__title")
+// questions_main.forEach((qstn_m) => {
+//     qstn_m.addEventListener('click', () =>{
+//         const quote_question = qstn_m.nextElementSibling;
+//         alert(1)
+//         const text = quote_question.nextElementSibling;
+//         if (text.classList.contains('close')){
+//             // qstn.textContent = "⌄"
+//             quote_question.style.transform = "rotate(90deg)";
+//             text.classList.remove('close');
+//         }
+//         else{
+//             quote_question.style.transform = "rotate(0)";
+//             text.classList.add('close');
+//         }
+//     })
+// })
