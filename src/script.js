@@ -30,15 +30,16 @@ questions.forEach((qstn) => {
 const questionsTouch = document.querySelectorAll(".question__title")
 questionsTouch.forEach((qstnTouch) => {
   qstnTouch.addEventListener('click', () =>{
-        alert(12)
-        const text = qstnTouch.nextElementSibling;
+        alert(122)
+        const quote = qstnTouch.nextElementSibling;
+        const text = quote.nextElementSibling;
         if (text.classList.contains('close')){
             // qstn.textContent = "⌄"
-            // qstn.style.transform = "rotate(90deg)";
+            quote.style.transform = "rotate(90deg)";
             text.classList.remove('close');
         }
         else{
-            // qstn.style.transform = "rotate(0)";
+            quote.style.transform = "rotate(0)";
             text.classList.add('close');
         }
         // const quote_question = qstnTouch.getElementsByClassName("question__button");
