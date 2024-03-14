@@ -31,6 +31,16 @@ const questionsTouch = document.querySelectorAll(".question__title")
 questionsTouch.forEach((qstnTouch) => {
   qstnTouch.addEventListener('click', () =>{
         alert(1)
+        const text = qstn.nextElementSibling;
+        if (text.classList.contains('close')){
+            // qstn.textContent = "⌄"
+            // qstn.style.transform = "rotate(90deg)";
+            text.classList.remove('close');
+        }
+        else{
+            // qstn.style.transform = "rotate(0)";
+            text.classList.add('close');
+        }
         // const quote_question = qstnTouch.getElementsByClassName("question__button");
         // const text_question = qstnTouch.getElementsByClassName("question__answer");
         // if(quote_question==null)alert(1)
