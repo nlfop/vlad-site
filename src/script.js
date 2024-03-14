@@ -13,7 +13,7 @@ new Swiper('.swiper-container', {
 const questions = document.querySelectorAll(".question__button")
 questions.forEach((qstn) => {
     qstn.addEventListener('click', () =>{
-      alert(3)
+      alert(33)
         const text = qstn.nextElementSibling;
         if (text.classList.contains('close')){
             // qstn.textContent = "⌄"
