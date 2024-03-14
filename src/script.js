@@ -30,8 +30,8 @@ questions.forEach((qstn) => {
 const questionsTouch = document.querySelectorAll(".question__title")
 questionsTouch.forEach((qstnTouch) => {
   qstnTouch.addEventListener('click', () =>{
-        alert(1)
-        const text = qstn.nextElementSibling;
+        alert(12)
+        const text = stnTouch.nextElementSibling;
         if (text.classList.contains('close')){
             // qstn.textContent = "⌄"
             // qstn.style.transform = "rotate(90deg)";
