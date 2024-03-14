@@ -27,7 +27,7 @@ questions.forEach((qstn) => {
     }
 ) })
 
-const questionsTouch = document.querySelectorAll(".question__touch")
+const questionsTouch = document.querySelectorAll(".question")
 questionsTouch.forEach((qstnTouch) => {
   qstnTouch.addEventListener('click', () =>{
         alert(1)
