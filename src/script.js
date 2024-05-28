@@ -13,7 +13,7 @@ new Swiper('.swiper-container', {
 const questions = document.querySelectorAll(".question__button")
 questions.forEach((qstn) => {
     qstn.addEventListener('click', () =>{
-      alert(33)
+    //   alert(33)
         const text = qstn.nextElementSibling;
         if (text.classList.contains('close')){
             // qstn.textContent = "⌄"
@@ -30,7 +30,7 @@ questions.forEach((qstn) => {
 const questionsTouch = document.querySelectorAll(".question__title")
 questionsTouch.forEach((qstnTouch) => {
   qstnTouch.addEventListener('click', () =>{
-        alert(122)
+        // alert(122)
         const quote = qstnTouch.nextElementSibling;
         const text = quote.nextElementSibling;
         if (text.classList.contains('close')){
