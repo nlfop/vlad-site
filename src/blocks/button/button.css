@@ -36,3 +36,7 @@
         letter-spacing: -0.85px;
     }
 }
+
+.button:hover{
+    cursor: pointer;
+}

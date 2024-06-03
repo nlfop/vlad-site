@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Репетитор по математике и физике</title>
-    <link rel="icon" href="<%=require('./image/logo.png')%>" type="image/x-icon">
+    <link rel="icon" href="<%=require('./image/logo.svg')%>" type="image/x-icon">
     <!-- <meta name="author" content="Николай Сорокин"> -->
     <!-- <link rel="stylesheet" href="../pages/index.css">
     <script src="script.js" defer></script> -->
 </head>
-<body class="page">
+<body class="page">  <!--Плавный скролл в page.css-->
     <header class="header">
         <h1 class="title">Твой репетитор&nbsp</h1>
         <p class="subtitle"> по подготовке к</p>
@@ -27,7 +27,7 @@
                                              по математике, физике,<br>
                                              ОГЭ или ЕГЭ<br>
                                              от 590₽/час</p>
-            <a href="#contacts" class="button">&nbsp&lt подробнее &gt&nbsp</a> <!--     &lt - это "<"     &gt - это ">"     -->
+            <button type="button" class="button">&nbsp&lt подробнее &gt&nbsp</button> <!--     &lt - это "<"     &gt - это ">"     -->
             <div class="substance-1"></div>
         </section>
 
@@ -136,33 +136,33 @@
             <h2 class="title title_for-inline">Ответы на вопросы</h2>
             <ul class="questions">
                 <li class="question" id="question_1">
-                    <a class="question__title">Сколько и как оплачивать?</a>
+                    <h5 class="question__title">Сколько и как оплачивать?</h5>
                     <a href="#question_1" class="question__button">&gt</a>
                     <p class="question__answer close">Стоимость занятия обговаривается заранее.
                         Оплата происходит после проведёного занятия переведом на карту. </p>
                        
                 </li>
                 <li class="question" id="question_2">
-                    <a class="question__title">Сколько надо занятий?</a>
+                    <h5 class="question__title">Сколько надо занятий?</h5>
                     <a href="#question_2" class="question__button">&gt</a>
                     <p class="question__answer close">Зависит от тех результов, которых вы хотите достигнуть. 
                         Это может быть как и один урок для понимания какой-то темы, так десяток-другой, если цель - 100 баллов на ЕГЭ </p>
                        
                 </li>
                 <li class="question" id="question_3">
-                    <a class="question__title">Что нужно для обучения?</a>
+                    <h5 class="question__title">Что нужно для обучения?</h5>
                     <a href="#question_3" class="question__button">&gt</a>
                     <p class="question__answer close">Желание, лист бумаги и усердие) Всему остальному я научу в процессе</p>
                     
                 </li>
                 <li class="question" id="question_4">
-                    <a class="question__title">Когда меня добавят в группу учеников?</a>
+                    <h5 class="question__title">Когда меня добавят в группу учеников?</h5>
                     <a href="#question_4" class="question__button">&gt</a>
                     <p class="question__answer close">Моментально, если группа уже сформирована или через какое-то время, если ещё идёт набор</p>
                     
                 </li>
                 <li class="question" id="question_5">
-                    <a class="question__title">Сколько человек в группе?</a>
+                    <h5 class="question__title">Сколько человек в группе?</h5>
                     <a href="#question_5" class="question__button">&gt</a>
                 
                     <p class="question__answer close">От 2 до 5</p>

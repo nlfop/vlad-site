@@ -10,6 +10,11 @@ new Swiper('.swiper-container', {
     //initialSlide: 1, //Слайд с которго начать
 });
 
+document.querySelector(".button").addEventListener("click", () => {
+    document.querySelector("#contacts").scrollIntoView()
+})
+
+
 const questions = document.querySelectorAll(".question__button")
 questions.forEach((qstn) => {
     qstn.addEventListener('click', () =>{
@@ -74,3 +79,7 @@ questionsTouch.forEach((qstnTouch) => {
 //         }
 //     })
 // })
+
+// function switching_contacts(){
+
+// }

@@ -23,3 +23,7 @@
         letter-spacing: -0.51px;
     }
 }
+
+.question__button:hover{
+    cursor: pointer;
+}
