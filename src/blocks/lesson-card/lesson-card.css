@@ -1,5 +1,6 @@
 .lesson-card{
     max-width: 280px;
+    max-height: 400px;
     flex-shrink: 0;
 
     margin: 10px 0 0 0;
@@ -15,6 +16,8 @@
 
     border-radius: 20px;
     background: #9E29F0;
+
+    overflow: hidden;
 }
 
 @media(min-width: 590px){

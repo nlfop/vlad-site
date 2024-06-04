@@ -1,5 +1,6 @@
 .button{
     flex-shrink: 0;
+    border: none;
     border-radius: 17px;
     background: #D9D9D9;
 
@@ -12,7 +13,7 @@
     font-family: Inter;
     font-size: 25px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 850;
     line-height: 35px; /* 152.174% */
     letter-spacing: -0.391px;
     text-decoration: none;
