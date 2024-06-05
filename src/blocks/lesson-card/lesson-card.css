@@ -3,8 +3,8 @@
     max-height: 400px;
     flex-shrink: 0;
 
-    margin: 10px 0 0 0;
-    padding: 0;
+    margin: 10px 0;
+    padding: 10px 10px 10px 0;
     display: inline-flex;
     flex-direction: column;
 
@@ -19,7 +19,11 @@
         max-width: 545px;
         border-radius: 25px;
 
-        margin: 20px 40px 20px 0;
+        margin: 20px 40px 0 0;
+        padding: 10px 0;
+    }
+    .lesson-card:last-child{
+        padding: 10px 0 0;
     }
 }
 
@@ -27,5 +31,6 @@
     .lesson-card{
         min-width: 600px;
         border-radius: 30px;
+        padding: 0;
     }
 }
