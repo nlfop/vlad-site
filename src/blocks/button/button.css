@@ -17,8 +17,6 @@
     line-height: 35px; /* 152.174% */
     letter-spacing: -0.391px;
     text-decoration: none;
-
-    grid-area: buy;
 }
 
 @media (min-width: 590px){

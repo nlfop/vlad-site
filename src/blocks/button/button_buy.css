@@ -1,6 +1,6 @@
 .button_buy{
-    width: 90%;
-    height: 70%; 
-    margin: auto;
+    width: fit-content;
+    /* height: 70%;  */
+    margin: 2%;
     padding: 0;
 }

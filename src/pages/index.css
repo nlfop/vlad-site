@@ -46,6 +46,7 @@
 @import url("../blocks/lesson-card/lesson-card.css");
 @import url("../blocks/lesson-card/lesson-card__title.css");
 @import url("../blocks/lesson-card/lesson-card__description.css");
+@import url("../blocks//lesson-card/lesson-card__container.css");
 @import url("../blocks/lesson-card/lesson-card__price.css");
 @import url("../blocks/button/button_buy.css");
 

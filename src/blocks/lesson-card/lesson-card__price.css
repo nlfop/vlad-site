@@ -1,5 +1,5 @@
 .lesson-card__price{
-    margin: 10px 0 0 auto;
+    margin: 3.25% 0 3% auto;
     padding: 0;
     grid-area: price;
 
@@ -18,6 +18,7 @@
 
 @media(min-width: 590px){
     .lesson-card__price{
+        margin: 2% 0 3% auto;
         font-size: 30px;
         letter-spacing: -0.51px;
     }
@@ -25,6 +26,7 @@
 
 @media(min-width: 930px){
     .lesson-card__price{
+        margin: 1% 0 1% auto;
         font-size: 45px;
         letter-spacing: -0.765px;
     }
